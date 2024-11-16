@@ -9,11 +9,7 @@ def write_file(filename, content):
     with open(filename, 'w') as file:
         file.write(content)
 
-if __name__ == "__main__":
-    # Пример использования функций
-    write_file('file1.txt', 'Привет, это содержимое файла 1!')
-    write_file('file2.txt', 'Привет, это содержимое файла 2!')
-    
+if __name__ == "__main__":    
     content1 = read_file('file1.txt')
     content2 = read_file('file2.txt')
     
